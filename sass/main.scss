@@ -131,7 +131,7 @@ body {
 #characters{
 	padding-right: 5%;
 	padding-left: 5%;
-	background: url('http://www.walldevil.com/wallpapers/a86/wallpaper-avengers-comic-wallpapers-background-pictures-images.jpg');
+	background: url('https://s-media-cache-ak0.pinimg.com/originals/0d/db/55/0ddb555b3608a564839e1a1a3d5e905c.jpg');
 	height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -157,12 +157,70 @@ body {
 
 }
 
+#characters2{
+	padding-right: 5%;
+	padding-left: 5%;
+	background: url('http://thiswallpaper.com/cdn/hdwallpapers/800/chris%20evans%20captain%20america%20high%20definition%20image.jpg');
+	height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .learnmore{
+		background: red;
+		text-align: center;
+		color: white
+	}
+	.characterphoto{
+		height: 300px;
+		width: 300px;
+		margin: 0px auto;
+		display: block;
+		border: 4px solid white;
+	}
+	.charactername{
+		text-align: center;
+		color: white;
+		background: red;
+	}
+}
+
 // Comic Page
 
 #comics{
 	padding-right: 5%;
 	padding-left: 5%;
-	background: url('http://cdn.paper4pc.com/?module=images&act=download&file=avengers-marvel-superhero-wallpaper-1.jpg');
+	background: url('http://cdn.wallpapersafari.com/21/73/7cbUIE.jpg');
+	height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	.comicname{
+		text-align: center;
+		background: red;
+		color: white;
+	}
+	.comicimage{
+		height: 400px;
+		width: 300px;
+		margin: 0px auto;
+		display: block;
+		border: 4px solid white;
+		opacity: 1.0;
+	}
+	.comicprice{
+		background: red;
+		text-align: center;
+		color: white;
+	}
+
+}
+
+#comics2{
+	padding-right: 5%;
+	padding-left: 5%;
+	background: url('https://images.alphacoders.com/548/548500.jpg');
 	height: 100%; 
     background-attachment: fixed;
     background-position: center;
