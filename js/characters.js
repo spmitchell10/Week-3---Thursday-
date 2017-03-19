@@ -23,3 +23,10 @@ $.ajax({url: "https://gateway.marvel.com:443/v1/public/characters?limit=12&offse
           `);
       })
 }});
+
+$("body").on("click",".learnmore",function(response){
+    response.data.results.forEach(function(comic)
+    $("#myModal").modal()
+})
+
+    // Then just just say that you want your modal to show up. So if your modal has an id of myModal
