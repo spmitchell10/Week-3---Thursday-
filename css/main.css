@@ -119,7 +119,9 @@ body {
   #characters .charactername {
     text-align: center;
     color: white;
-    background: red; }
+    background: red;
+    height: 33px;
+    overflow: hidden; }
 
 #characters2 {
   padding-right: 5%;
@@ -143,7 +145,35 @@ body {
   #characters2 .charactername {
     text-align: center;
     color: white;
-    background: red; }
+    background: red;
+    height: 33px;
+    overflow: hidden; }
+
+#characters3 {
+  padding-right: 5%;
+  padding-left: 5%;
+  background: url("https://images5.alphacoders.com/667/667967.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #characters3 .learnmore {
+    background: red;
+    text-align: center;
+    color: white; }
+  #characters3 .characterphoto {
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+    display: block;
+    border: 4px solid white; }
+  #characters3 .charactername {
+    text-align: center;
+    color: white;
+    background: red;
+    height: 33px;
+    overflow: hidden; }
 
 #comics {
   padding-right: 5%;
@@ -157,7 +187,9 @@ body {
   #comics .comicname {
     text-align: center;
     background: red;
-    color: white; }
+    color: white;
+    height: 33px;
+    overflow: hidden; }
   #comics .comicimage {
     height: 400px;
     width: 300px;
@@ -182,7 +214,9 @@ body {
   #comics2 .comicname {
     text-align: center;
     background: red;
-    color: white; }
+    color: white;
+    height: 33px;
+    overflow: hidden; }
   #comics2 .comicimage {
     height: 400px;
     width: 300px;
